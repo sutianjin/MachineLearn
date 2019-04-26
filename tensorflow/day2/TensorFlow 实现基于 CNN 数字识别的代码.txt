@@ -1,0 +1,15 @@
+TensorFlow 实现基于 CNN 数字识别的代码
+
+1、前期准备
+训练数据下载：
+wget https://devlab-1251520893.cos.ap-guangzhou.myqcloud.com/t10k-images-idx3-ubyte.gz
+wget https://devlab-1251520893.cos.ap-guangzhou.myqcloud.com/t10k-labels-idx1-ubyte.gz
+wget https://devlab-1251520893.cos.ap-guangzhou.myqcloud.com/train-images-idx3-ubyte.gz
+wget https://devlab-1251520893.cos.ap-guangzhou.myqcloud.com/train-labels-idx1-ubyte.gz
+2、CNN模型建立
+mnist_model.py
+3、训练CNN模型
+train_mnist_model.py
+4、测试CNN模型
+a.测试数据下载：wget https://devlab-1251520893.cos.ap-guangzhou.myqcloud.com/test_num.zip
+b.predict_mnist_model.py
