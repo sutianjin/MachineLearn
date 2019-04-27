@@ -13,6 +13,7 @@ if __name__ == '__main__':
     y_lrm_train = y_train.reshape(-1, 1)
     y_lrm_test = y_test.reshape(-1, 1)
 
+    print(x.shape[1])
     linear = lrm(x.shape[1])
     linear.train(x_train, y_lrm_train,x_test,y_lrm_test)
     y_predict = linear.predict(x_test)
